@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(212, 187, 235);
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+main{
+  width: 900px;
+}
+
+.body-container {
+  background-color: hsl(0, 0%, 90%);
+  border-radius: 10px;
+  padding: 20px 50px 20px 50px;
+}
+
+nav {
+  margin-bottom: 50px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.navbar-container a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #333;
+  margin-left: 1.5rem;
+}
+.navbar-container a:hover {
+  color: rgb(200, 160, 238);
+}
+
+.navbar-container button {
+  margin-left: 1rem;
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.maincontent-container {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  padding: 1rem 0;
+}
+.iconbar-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconbar-container ion-icon {
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+}
+
+.text-container p {
+  margin:.7rem 0;
+}
+.text-container h1 {
+  font-size: 1.7rem;
+}
+.text-container small {
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.btn{
+  padding: 5px 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.256);
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: all .4s;
+}
+.btn:hover{
+  background-color: #333;
+  color: #fff;
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 0 100px 0 30px;
+  /* clip-path: polygon(
+    49% 6%,
+    81% 10%,
+    96% 33%,
+    86% 69%,
+    71% 88%,
+    49% 98%,
+    31% 87%,
+    11% 68%,
+    1% 35%,
+    16% 10%
+  ); */
+}
+
+.contact-me-container {
+  margin-top: 10px;
+  background-color: blueviolet;
+  border-radius: 10%;
+}
+
+footer{
+  text-align: center;
+}
